@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 90px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.logo img{
+    padding-left: 40px;
+    width: 150px;
+}
+.navs a:hover{
+    color: #1ed760;
+}
+.signup a{
+    color: white;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: medium;
+}
+.signup a:hover{
+    color:#1ed760;
+}
+button:hover{
+    transform: scale(1);
+}
+.navs a{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.navs{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.signup{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mid-overlay{
+    background: linear-gradient(to top left, #9900cc 0%, #cc3399 100%);
+    height: 100vh;
+    width: 100%;
+}
+.mid{
+    background-image: url("./bubbles-dktp.svg");
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.phoneside{
+    margin-top: 136px;
+    margin-left: 100px;
+    width: 30%;
+    background-image: url("iphonepng.png");
+    background-size: cover;
+}
+.phoneside img{
+    width: 269px;
+    margin-top: 85px;
+    margin-left: 41px;
+}
+.rightside{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 80px;
+}
+.rightside h1{
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    font-size: 70px;
+    color: white;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif
+
+}
+.rightside button{
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    width: 200px;
+    height: 50px;
+    border-radius: 500px;
+    border-color: white;
+}
+.why-spotify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: white;
+}
+.why-spotify h1{
+    font-size: 40px;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif
+}
+.align-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+.one,.two,.three,.four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.png p{
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.png h3{
+    font-weight:bold;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+}
+.its-free{
+    display: flex;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.got-ques{
+    font-size: 25px;
+    height: 40vh;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.questions{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.margin h3:hover{
+    text-decoration: underline;
+}
+.margin{
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    width: 90%;
+}
+.playlist{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.data-saver{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.shuffle{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.podcast{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.playlist:hover{
+    background-color:thistle;
+}
+.shuffle:hover{
+    background-color:thistle;
+}
+.podcast:hover{
+    background-color:thistle;
+}
+.data-saver:hover{
+    background-color:thistle;
+}
+.ready-to-play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background-image: url("bubbles-dktp\ -\ Copy.jpg.svg");
+}
+.bottom-background{
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    height: 80vh;
+    width: 100%;
+}
+.ready-to-play h1{
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    color: white;   
+}
+.ready-to-play button{
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    border-color: white;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50px;
+}
+.footer{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.margin-footer{
+    width: 95%;
+    background-color:black;
+    height: 60vh;
+    display: flex;
+}
+.footer-logo{
+    width: 10%;
+    height: 60vh;
+}
+.about-sec{
+    padding-top: 100px;
+    width: 60%;
+    height: 60vh;
+}
+.other-links{
+    width: 30%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    height: 60vh;
+}
+.footer-logo img{
+    width: 150px;
+    padding: 20px;
+    padding-top: 90px;
+}
+.about-sec li{
+    padding-left: 20px;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+    list-style: none;
+}
+.about-sec ul{
+    align-items: flex-start;
+    display: flex;
+    line-height: 40px;
+}
+.about-sec dt{
+    font-weight: bold;
+    color: #919496;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-left: 40px;
+}
+.footer-links img{
+    width: 40px;
+    color: white;
+    margin: 5px;
+    padding-bottom: 220px;
+}
+.footer-last{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.margin-last{
+    background-color: black;
+    width: 95%;
+    height: 20vh;
+    display: flex;
+}
+.left-side-footer{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+.left-side-footer a{
+    font-size: small;
+    padding-right: 20px;
+    color: white;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+.about-sec dd{
+    color: white;
+    text-decoration: none;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+}
+dd:hover{
+    color: #1ed760;
+}
+a:hover{
+    color: #1ed760;
+}
+.right-side-footer{
+    width: 40%;
+    text-align: end;
+}
+.right-side-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+}
