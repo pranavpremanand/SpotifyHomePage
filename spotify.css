@@ -144,7 +144,6 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     font-size: 35px;
     color: white;
     background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
